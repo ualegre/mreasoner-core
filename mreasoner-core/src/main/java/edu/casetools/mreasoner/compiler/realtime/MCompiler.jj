@@ -8,7 +8,7 @@ options
 }
 
 PARSER_BEGIN(MCompiler)
-package edu.casetools.mreasoner.io.compiler.realtime;
+package edu.casetools.mreasoner.compiler.realtime;
 
 import java.io.FileReader;
 import java.util.Calendar;

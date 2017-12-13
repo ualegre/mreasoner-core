@@ -8,7 +8,7 @@ options
 }
 
 PARSER_BEGIN(MCompiler_Iteration)
-package edu.casetools.vera.logreader.io.configs.compiler;
+package edu.casetools.mreasoner.compiler.iterations;
 import java.io.FileReader;
 import java.util.Calendar;
 import java.util.Vector;
