@@ -1,6 +1,6 @@
-package edu.casetools.mreasoner.core.data.states;
+package edu.casetools.mreasoner.core.elements.states;
 
-import edu.casetools.mreasoner.core.data.time.Time;
+import edu.casetools.mreasoner.core.elements.time.Time;
 
 public  class State extends DefaultState{
 

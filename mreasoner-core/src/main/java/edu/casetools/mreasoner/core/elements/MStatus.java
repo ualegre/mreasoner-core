@@ -1,9 +1,9 @@
-package edu.casetools.mreasoner.core.data;
+package edu.casetools.mreasoner.core.elements;
 
 import java.util.Vector;
 
-import edu.casetools.mreasoner.core.data.states.State;
-import edu.casetools.mreasoner.core.data.time.Time;
+import edu.casetools.mreasoner.core.elements.states.State;
+import edu.casetools.mreasoner.core.elements.time.Time;
 
 public class MStatus {
 

@@ -1,11 +1,11 @@
-package edu.casetools.mreasoner.core.data.rules;
+package edu.casetools.mreasoner.core.elements.rules;
 
 import java.util.Vector;
 
-import edu.casetools.mreasoner.core.data.MStatus;
-import edu.casetools.mreasoner.core.data.states.DefaultState;
-import edu.casetools.mreasoner.core.data.states.State;
-import edu.casetools.mreasoner.core.data.time.TemporalOperator;
+import edu.casetools.mreasoner.core.elements.MStatus;
+import edu.casetools.mreasoner.core.elements.states.DefaultState;
+import edu.casetools.mreasoner.core.elements.states.State;
+import edu.casetools.mreasoner.core.elements.time.top.TemporalOperator;
 import edu.casetools.mreasoner.database.MDBInterface;
 
 public class SameTimeRule {

@@ -1,9 +1,9 @@
-package edu.casetools.mreasoner.core.data.events;
+package edu.casetools.mreasoner.core.elements.events;
 
 import java.util.Calendar;
 
-import edu.casetools.mreasoner.core.data.time.absolute.Date;
-import edu.casetools.mreasoner.core.data.time.absolute.TimeOfDay;
+import edu.casetools.mreasoner.core.elements.time.absolute.Date;
+import edu.casetools.mreasoner.core.elements.time.absolute.TimeOfDay;
 
 
 public class Event {

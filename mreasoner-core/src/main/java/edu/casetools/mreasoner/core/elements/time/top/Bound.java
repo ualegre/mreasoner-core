@@ -1,10 +1,11 @@
-package edu.casetools.mreasoner.core.data.time;
+package edu.casetools.mreasoner.core.elements.time.top;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import edu.casetools.mreasoner.core.data.time.absolute.Date;
-import edu.casetools.mreasoner.core.data.time.absolute.TimeOfDay;
+import edu.casetools.mreasoner.core.elements.time.Time;
+import edu.casetools.mreasoner.core.elements.time.absolute.Date;
+import edu.casetools.mreasoner.core.elements.time.absolute.TimeOfDay;
 
 public class Bound {
 

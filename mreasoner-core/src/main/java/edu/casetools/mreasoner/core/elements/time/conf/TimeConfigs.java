@@ -1,4 +1,4 @@
-package edu.casetools.mreasoner.core.configs;
+package edu.casetools.mreasoner.core.elements.time.conf;
 
 public class TimeConfigs {
 	public enum  EXECUTION_MODE {SIMULATION_ITERATION,SIMULATION_REAL_TIME,REAL_ENVIRONMENT};
@@ -66,14 +66,9 @@ public class TimeConfigs {
 	public String parseConfigs(){
 		String result = "";
 		
-		//General Info
 		result = result+"<EXECUTION_MODE>  \n";
 		result = result+ getExecutionMode()+"\n";
 		result = result+"</EXECUTION_MODE> \n";
-		
-//		result = result+"<USE_STRATIFICATION> \n";
-//		result = result+useStratification()+"\n";
-//		result = result+"</USE_STRATIFICATION> \n";
 		
 		result = result+"<USE_FIXED_ITERATION_TIME> \n";
 		result = result+isFixedIterationTime()+"\n";
@@ -82,10 +77,6 @@ public class TimeConfigs {
 		result = result+"<FIXED_ITERATION_TIME> \n";
 		result = result+getTimeUnit()+"\n";
 		result = result+"</FIXED_ITERATION_TIME> \n";
-
-//		result = result+"<USE_MAX_EXECUTION_TIME> \n";
-//		result = result+useMaxExecutionTime()+"\n";
-//		result = result+"</USE_MAX_EXECUTION_TIME> \n";
 		
 		result = result+"<EXECUTION_TIME> \n";
 		result = result+getExecutionTime()+"\n";

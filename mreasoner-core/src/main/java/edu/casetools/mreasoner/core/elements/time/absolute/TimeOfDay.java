@@ -1,4 +1,4 @@
-package edu.casetools.mreasoner.core.data.time.absolute;
+package edu.casetools.mreasoner.core.elements.time.absolute;
 
 import java.util.Calendar;
 

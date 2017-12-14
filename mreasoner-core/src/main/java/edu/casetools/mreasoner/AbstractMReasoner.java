@@ -5,10 +5,10 @@ import java.util.Observable;
 
 
 import edu.casetools.mreasoner.core.MSpecification;
-import edu.casetools.mreasoner.core.configs.TimeConfigs;
-import edu.casetools.mreasoner.core.data.MRules;
-import edu.casetools.mreasoner.core.data.MStatus;
-import edu.casetools.mreasoner.core.data.time.Time;
+import edu.casetools.mreasoner.core.elements.MRules;
+import edu.casetools.mreasoner.core.elements.MStatus;
+import edu.casetools.mreasoner.core.elements.time.Time;
+import edu.casetools.mreasoner.core.elements.time.conf.TimeConfigs;
 import edu.casetools.mreasoner.database.MDBInterface;
 import edu.casetools.mreasoner.utils.MSemaphore;
 import edu.casetools.mreasoner.utils.RuleStratificator;
@@ -66,12 +66,14 @@ public abstract class AbstractMReasoner extends Observable implements Runnable {
 
 	
 	public void run(){
-		this.initReasoner();
-		if(hasMaxExecutionTime)
-			while(systemStatus.getTime().simulationTime()&&running) iteration();
-		else while(running) iteration();
 		
-		terminate();
+		this.initReasoner();
+		if(hasMaxExecutionTime){
+			while(systemStatus.getTime().simulationTime() && running) 
+				iteration();
+			terminate();
+		}
+		else while(running) iteration();
 
 	}
 	

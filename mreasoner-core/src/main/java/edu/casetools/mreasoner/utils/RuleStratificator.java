@@ -2,10 +2,10 @@ package edu.casetools.mreasoner.utils;
 
 import java.util.Vector;
 
-import edu.casetools.mreasoner.core.data.MRules;
-import edu.casetools.mreasoner.core.data.rules.NextTimeRule;
-import edu.casetools.mreasoner.core.data.rules.SameTimeRule;
-import edu.casetools.mreasoner.core.data.states.State;
+import edu.casetools.mreasoner.core.elements.MRules;
+import edu.casetools.mreasoner.core.elements.rules.NextTimeRule;
+import edu.casetools.mreasoner.core.elements.rules.SameTimeRule;
+import edu.casetools.mreasoner.core.elements.states.State;
 
 public class RuleStratificator {
 	

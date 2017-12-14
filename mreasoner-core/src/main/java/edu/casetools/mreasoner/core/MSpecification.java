@@ -2,11 +2,10 @@ package edu.casetools.mreasoner.core;
 
 import java.util.Vector;
 
-
-import edu.casetools.mreasoner.core.data.MRules;
-import edu.casetools.mreasoner.core.data.MStatus;
-import edu.casetools.mreasoner.core.data.events.Event;
-import edu.casetools.mreasoner.core.data.states.State;
+import edu.casetools.mreasoner.core.elements.MRules;
+import edu.casetools.mreasoner.core.elements.MStatus;
+import edu.casetools.mreasoner.core.elements.events.Event;
+import edu.casetools.mreasoner.core.elements.states.State;
 
 
 

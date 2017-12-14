@@ -1,9 +1,9 @@
-package edu.casetools.mreasoner.core.data;
+package edu.casetools.mreasoner.core.elements;
 
 import java.util.Vector;
 
-import edu.casetools.mreasoner.core.data.rules.NextTimeRule;
-import edu.casetools.mreasoner.core.data.rules.SameTimeRule;
+import edu.casetools.mreasoner.core.elements.rules.NextTimeRule;
+import edu.casetools.mreasoner.core.elements.rules.SameTimeRule;
 
 public class MRules {
 

@@ -1,10 +1,10 @@
-package edu.casetools.mreasoner.core.data.states.Internal;
+package edu.casetools.mreasoner.core.elements.states.Internal;
 
 import java.util.Calendar;
 
-import edu.casetools.mreasoner.core.data.states.DefaultState;
-import edu.casetools.mreasoner.core.data.time.Time;
-import edu.casetools.mreasoner.core.data.time.absolute.Date;
+import edu.casetools.mreasoner.core.elements.states.DefaultState;
+import edu.casetools.mreasoner.core.elements.time.Time;
+import edu.casetools.mreasoner.core.elements.time.absolute.Date;
 
 public class CalendarAt extends DefaultState{
 	Date data;

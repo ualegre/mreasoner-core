@@ -6,7 +6,7 @@ import java.io.FileReader;
 import edu.casetools.mreasoner.compiler.iterations.MCompiler_Iteration;
 import edu.casetools.mreasoner.compiler.realtime.MCompiler;
 import edu.casetools.mreasoner.core.MSpecification;
-import edu.casetools.mreasoner.core.configs.TimeConfigs.EXECUTION_MODE;
+import edu.casetools.mreasoner.core.elements.time.conf.TimeConfigs.EXECUTION_MODE;
 
 public class MSpecificationLoader {
 

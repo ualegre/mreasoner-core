@@ -1,6 +1,6 @@
-package edu.casetools.mreasoner.core.data.rules;
+package edu.casetools.mreasoner.core.elements.rules;
 
-import edu.casetools.mreasoner.core.data.MStatus;
+import edu.casetools.mreasoner.core.elements.MStatus;
 import edu.casetools.mreasoner.database.MDBInterface;
 
 public class NextTimeRule extends SameTimeRule {

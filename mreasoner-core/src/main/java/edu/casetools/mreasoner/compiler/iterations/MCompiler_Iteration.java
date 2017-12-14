@@ -5,24 +5,24 @@ import java.util.Calendar;
 import java.util.Vector;
 
 import edu.casetools.mreasoner.core.MSpecification;
-import edu.casetools.mreasoner.core.data.MRules;
-import edu.casetools.mreasoner.core.data.MStatus;
-import edu.casetools.mreasoner.core.data.events.Event;
-import edu.casetools.mreasoner.core.data.rules.NextTimeRule;
-import edu.casetools.mreasoner.core.data.rules.SameTimeRule;
-import edu.casetools.mreasoner.core.data.states.DefaultState;
-import edu.casetools.mreasoner.core.data.states.State;
-import edu.casetools.mreasoner.core.data.states.Internal.CalendarAt;
-import edu.casetools.mreasoner.core.data.states.Internal.CalendarBetween;
-import edu.casetools.mreasoner.core.data.states.Internal.ClockAt;
-import edu.casetools.mreasoner.core.data.states.Internal.ClockBetween;
-import edu.casetools.mreasoner.core.data.states.Internal.WeekDayAt;
-import edu.casetools.mreasoner.core.data.states.Internal.WeekDayBetween;
-import edu.casetools.mreasoner.core.data.time.Bound;
-import edu.casetools.mreasoner.core.data.time.TemporalOperator;
-import edu.casetools.mreasoner.core.data.time.TemporalOperator.TOP_TYPE;
-import edu.casetools.mreasoner.core.data.time.absolute.Date;
-import edu.casetools.mreasoner.core.data.time.absolute.TimeOfDay;
+import edu.casetools.mreasoner.core.elements.MRules;
+import edu.casetools.mreasoner.core.elements.MStatus;
+import edu.casetools.mreasoner.core.elements.events.Event;
+import edu.casetools.mreasoner.core.elements.rules.NextTimeRule;
+import edu.casetools.mreasoner.core.elements.rules.SameTimeRule;
+import edu.casetools.mreasoner.core.elements.states.DefaultState;
+import edu.casetools.mreasoner.core.elements.states.State;
+import edu.casetools.mreasoner.core.elements.states.Internal.CalendarAt;
+import edu.casetools.mreasoner.core.elements.states.Internal.CalendarBetween;
+import edu.casetools.mreasoner.core.elements.states.Internal.ClockAt;
+import edu.casetools.mreasoner.core.elements.states.Internal.ClockBetween;
+import edu.casetools.mreasoner.core.elements.states.Internal.WeekDayAt;
+import edu.casetools.mreasoner.core.elements.states.Internal.WeekDayBetween;
+import edu.casetools.mreasoner.core.elements.time.absolute.Date;
+import edu.casetools.mreasoner.core.elements.time.absolute.TimeOfDay;
+import edu.casetools.mreasoner.core.elements.time.top.Bound;
+import edu.casetools.mreasoner.core.elements.time.top.TemporalOperator;
+import edu.casetools.mreasoner.core.elements.time.top.TemporalOperator.TOP_TYPE;
 
 
 

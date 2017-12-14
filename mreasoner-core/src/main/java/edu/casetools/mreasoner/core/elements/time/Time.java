@@ -1,10 +1,10 @@
-package edu.casetools.mreasoner.core.data.time;
+package edu.casetools.mreasoner.core.elements.time;
 
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import edu.casetools.mreasoner.core.configs.TimeConfigs;
+import edu.casetools.mreasoner.core.elements.time.conf.TimeConfigs;
 
 
 public class Time {

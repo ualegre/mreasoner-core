@@ -1,8 +1,8 @@
-package edu.casetools.mreasoner.core.data.time;
+package edu.casetools.mreasoner.core.elements.time.top;
 
 import java.util.Calendar;
 
-import edu.casetools.mreasoner.core.data.states.State;
+import edu.casetools.mreasoner.core.elements.states.State;
 
 public class TemporalOperator extends State{
 
