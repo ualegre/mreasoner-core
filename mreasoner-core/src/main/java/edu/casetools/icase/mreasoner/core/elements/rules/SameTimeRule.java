@@ -76,12 +76,14 @@ public class SameTimeRule {
 		
 		if(result) 
 			result = checkPastBoundedAntecedents(systemStatus,database);
-			systemStatus.occurs(consequence.getName(), consequence.getStatus(),false );
 		if(!result) 
-			firstTime = true;			
-		if(result && firstTime){ 
-			printRuleChange();
-			firstTime = false;
+			firstTime = true;	
+		if(result){
+			systemStatus.occurs(consequence.getName(), consequence.getStatus(),false );
+			if(firstTime){
+				printRuleChange();
+				firstTime = false;
+			}
 		}
 		return systemStatus;	
 	}
