@@ -127,6 +127,10 @@ public abstract class AbstractMReasoner extends Observable implements Runnable {
 		System.out.println("______________________________________");
 		System.out.println("Same Time rules succesfully stratified\n");
 	}
+	
+	public MStatus getCurrentStatus(){
+		return systemStatus;
+	}
 
 
 }
